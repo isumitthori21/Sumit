@@ -16,3 +16,4 @@ The layout is designed to be both visually appealing and functional, featuring m
 - **CSS3**: For styling the website, using modern CSS techniques such as Flexbox and Grid for responsive layouts.
 - **Responsive Design**: Media queries and flexible layouts ensure the site looks great on any device.
 - **Minimalist Design**: Emphasis on clean, uncluttered design with easy-to-read fonts and accessible color schemes.
+
