@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <script src="js/validation.js"></script>  
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="sumstyle.css"> <!-- Include provided CSS -->
+</head>
+<body>
+  <div class="container">
+  </div>
+
+    <!-- Login Section -->
+    <div class="login-section">
+      <div class="login-container">
+        <h1 class="login-heading">Welcome Back</h1>
+        <p class="login-subtext">Please log in to your account.</p>
+
+        <!-- Login Form -->
+        <form class="login-form" action="sumphp.php" method="POST" id="loginForm">
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="action-btn">Login</button>
+          </div>
+        </form>
+
+        <p class="register-text">
+          Don't have an account? <a href="#register" class="home-btn">Sign Up</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Validation -->
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function (e) {
+      const email = document.getElementById("email").value.trim();
+      const password = document.getElementById("password").value.trim();
+
+      if (!email || !password) {
+        alert("Please fill in all fields.");
+        e.preventDefault(); // Prevent form submission
+      } else if (!validateEmail(email)) {
+        alert("Please enter a valid email.");
+        e.preventDefault();
+      }
+    });
+
+    function validateEmail(email) {
+      const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return regex.test(email);
+    }
+  </script>
+</body>
+</html>

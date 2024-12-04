@@ -1,0 +1,98 @@
+/* Login Section Styles */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(
+      180deg,
+      rgba(134, 192, 253, 0.8),
+      rgba(67, 156, 234, 0.9)
+    );
+  }
+  
+  .login-container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .login-heading {
+    font-size: 2rem;
+    font-family: 'Lobster', sans-serif;
+    color: rgb(20, 80, 123);
+    margin-bottom: 1rem;
+  }
+  
+  .login-subtext {
+    font-size: 1rem;
+    color: #707070;
+    margin-bottom: 2rem;
+  }
+  
+  .login-form .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(20, 80, 123);
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-group input {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid rgba(20, 80, 123, 0.3);
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: rgb(20, 80, 123);
+    box-shadow: 0 0 5px rgba(20, 80, 123, 0.5);
+  }
+  
+  .form-actions {
+    text-align: center;
+  }
+  
+  .form-actions .action-btn {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(134, 192, 253);
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .form-actions .action-btn:hover {
+    background-color: rgb(20, 80, 123);
+    scale: 1.05;
+  }
+  
+  .register-text {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: rgb(20, 80, 123);
+  }
+  
+  .register-text a {
+    color: rgb(0, 123, 255);
+    text-decoration: none;
+  }
+  
+  .register-text a:hover {
+    text-decoration: underline;
+  }
+  
