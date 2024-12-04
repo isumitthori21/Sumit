@@ -1,19 +1,45 @@
-# Majestic Journeys: Static web page
-Majestic Journeys is a visually striking and user-friendly static website designed to showcase travel services, destinations, and experiences. Built with HTML and CSS, this project emphasizes simplicity, elegance, and responsive design, offering an optimal experience across all devices. Whether you’re a traveler seeking inspiration or a developer looking for a clean, easily customizable template, **Majestic Journeys** provides the perfect foundation.
+# **Majestic Journeys**
 
+**Majestic Journeys** is a travel website showcasing exciting tours and packages in **Incredible India**. The website features smooth navigation, a responsive design, and interactive elements like contact forms, a login modal, and a back-to-top button. It’s built with a combination of **HTML**, **CSS**, **JavaScript**, and **PHP**.
 
-## Project Overview
-This project is a fully static web page designed for a travel website, featuring a range of essential sections such as:
-- **Easy to Connect**: A curated list of dream travel locations.
-- **Best Price Guarantee**: Clear, concise information on the company's competitive pricing.
-- **Dedicated Support**: Contact information and support channels.
-- **Travellers love us**: Highlighting customer satisfaction and reviews.
-The layout is designed to be both visually appealing and functional, featuring modern design principles that prioritize user experience. 
+---
 
+## **Table of Contents**
 
-## Technologies Used
-- **HTML5**: For structuring the web content, ensuring semantic markup and improved SEO.
-- **CSS3**: For styling the website, using modern CSS techniques such as Flexbox and Grid for responsive layouts.
-- **Responsive Design**: Media queries and flexible layouts ensure the site looks great on any device.
-- **Minimalist Design**: Emphasis on clean, uncluttered design with easy-to-read fonts and accessible color schemes.
+1. [Features](#features)  
+2. [Technologies Used](#technologies-used)  
+3. [Installation](#installation)  
+4. [File Structure](#file-structure)  
+5. [How to Use](#how-to-use)  
+6. [Future Enhancements](#future-enhancements)  
+7. [Contributing](#contributing)  
+8. [License](#license)
+
+---
+
+## **Features**
+
+- **Smooth Scrolling**: Seamless navigation across sections using JavaScript.  
+- **Back-to-Top Button**: Fades in after scrolling down and takes the user back to the top smoothly.  
+- **Welcome Alert**: Greets users with a pop-up message on page load.  
+- **Contact Form**: Allows users to send their inquiries dynamically.  
+- **Login Modal**: Interactive modal for user login with basic JavaScript validation.  
+- **Responsive Design**: Works across all devices with adaptive layouts.  
+
+---
+
+## **Technologies Used**
+
+### Frontend:
+- **HTML5**: Structure and content of the website.
+- **CSS3**: Styling and animations (inline styles and external CSS).  
+- **JavaScript (ES6)**: Interactive features like smooth scrolling, back-to-top button, and form validation.
+
+### Backend:
+- **PHP**: Dynamically renders the contact section content.
+
+### External Libraries:
+- **Font Awesome**: For icons used across the website.  
+- **Boxicons**: For additional iconography.  
+- **Google Fonts**: Stylish fonts like `Lobster` for aesthetic text.
 
