@@ -2,20 +2,6 @@
 
 **Majestic Journeys** is a travel website showcasing exciting tours and packages in **Incredible India**. The website features smooth navigation, a responsive design, and interactive elements like contact forms, a login modal, and a back-to-top button. It’s built with a combination of **HTML**, **CSS**, **JavaScript**, and **PHP**.
 
----
-
-## **Table of Contents**
-
-1. [Features](#features)  
-2. [Technologies Used](#technologies-used)  
-3. [Installation](#installation)  
-4. [File Structure](#file-structure)  
-5. [How to Use](#how-to-use)  
-6. [Future Enhancements](#future-enhancements)  
-7. [Contributing](#contributing)  
-8. [License](#license)
-
----
 
 ## **Features**
 
